@@ -47,13 +47,13 @@ The project uses a retail sales dataset containing 18,045 transaction records an
 | 24 | `Cost_Amount` | Total cost associated with the products in the transaction. |
 | 25 | `Profit` | Profit generated from the transaction. |
 | 26 | `Payment_Method` | Payment method used to complete the transaction. |
-| 27 | `Shipping_Method` | Shipping method selected for the order. |
-| 28 | `Delivery_Days` | Number of days required to deliver the order. |
-| 29 | `Return_Flag` | Indicator showing whether the transaction involved a product return. |
-| 30 | `Return_Reason` | Reason provided for returning a product. |
-| 31 | `Sales_Representative` | Name or identifier of the sales representative handling the transaction. |
-| 32 | `Promotion_Code` | Promotional code applied to the transaction, if any. |
-| 33 | `Customer_Rating` | Rating provided by the customer regarding their purchase experience. |
-| 34 | `Inventory_Level` | Available inventory level associated with the product. |
-| 35 | `Order_Status` | Current status of the order. |
+| 27 | `Order_Status` | Current status of the order. |
+| 28 | `Shipping_Method` | Shipping method selected for the order. |
+| 29 | `Delivery_Days` | Number of days required to deliver the order. |
+| 30 | `Return_Flag` | Indicator showing whether the transaction involved a product return. |
+| 31 | `Return_Reason` | Reason provided for returning a product. |
+| 32 | `Sales_Representative` | Name or identifier of the sales representative handling the transaction. |
+| 33 | `Promotion_Code` | Promotional code applied to the transaction, if any. |
+| 34 | `Customer_Rating` | Rating provided by the customer regarding their purchase experience. |
+| 35 | `Inventory_Level` | Available inventory level associated with the product. |
 | 36 | `Order_Year` | Year in which the order was placed. |
