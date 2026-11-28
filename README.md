@@ -59,31 +59,43 @@ The project uses a retail sales dataset containing 18,045 transaction records an
 | 36 | `Order_Year` | Year in which the order was placed. |
 
 ## 🛠️ 4. Tools & Technologies
-1. **Google Colaboratory:** Used as the working environment to write and execute Python code for data cleaning, feature engineering, and exploratory data analysis.
-2. **Python:** Used to process and analyse the sales transaction dataset, including removing duplicates, handling missing values, standardising data formats, detecting outliers, and creating new analytical variables.
-3. **Python Libraries:**
-   - **Pandas:** Used to manipulate, clean, transform, and analyse the dataset during data preparation and analysis.
-   - **NumPy:** Used to support numerical calculations and selected feature engineering operations.
-   - **Seaborn:** Used to visualise numerical data distributions and identify outliers through boxplots.
-   - **Matplotlib:** Used to visualise sales and profit performance, trends, and patterns across different business dimensions.
-4. **Microsoft Excel:** Used to inspect and review the sales transaction dataset in spreadsheet format.
-5. **Looker Studio:** Used to develop an interactive dashboard presenting sales performance across geographic, customer, product, operational, and promotional dimensions.
-6. **GitHub:** Used to document the project, organise its files, and publish the project as part of a data analytics portfolio.
+### 1. Google Colaboratory
+Used as the working environment to write and execute Python code for data cleaning, feature engineering, and exploratory data analysis.
+### 2. Python
+Used to process and analyse the sales transaction dataset, including removing duplicates, handling missing values, standardising data formats, detecting outliers, and creating new analytical variables.
+### 3. Python Libraries
+- **Pandas:** Used to manipulate, clean, transform, and analyse the dataset during data preparation and analysis.
+- **NumPy:** Used to support numerical calculations and selected feature engineering operations.
+- **Seaborn:** Used to visualise numerical data distributions and identify outliers through boxplots.
+- **Matplotlib:** Used to visualise sales and profit performance, trends, and patterns across different business dimensions.
+### 4. Microsoft Excel
+Used to inspect and review the sales transaction dataset in spreadsheet format.
+### 5. Looker Studio
+Used to develop an interactive dashboard presenting sales performance across geographic, customer, product, operational, and promotional dimensions.
+### 6. GitHub
+Used to document the project, organise its files, and publish the project as part of a data analytics portfolio.
 
 ## 🔄 5. Project Workflow
 The project was conducted through the following stages:
-1. **Data Collection** – Obtaining the retail sales transaction dataset from Kaggle as the primary data source for the analysis.
-2. **Data Review** – Reviewing the structure, variables, and characteristics of the data.
-3. **Data Cleaning** – Preparing the dataset by removing duplicates, handling missing values, standardising data formats, and detecting outliers.
-4. **Feature Engineering** – Creating additional variables to support a more comprehensive analysis.
-5. **Exploratory Data Analysis (EDA)** – Exploring sales performance across five dimensions of analysis, such as geographic, customer, product, operational, and promotion, to identify trends, patterns, and business insights.
-6. **Dashboard Development** – Building an interactive dashboard to present key performance indicators and analysis results.
-7. **Key Findings & Recommendation Reporting** – Identifying main insights from the analysis and developing data-driven business strategy recommendations to highlight potential opportunities and support better decision-making.
+### 1. Data Collection
+Obtaining the retail sales transaction dataset from Kaggle as the primary data source for the analysis.
+### 2. Data Review
+Reviewing the structure, variables, and characteristics of the data.
+### 3. Data Cleaning
+Preparing the dataset by removing duplicates, handling missing values, standardising data formats, and detecting outliers.
+### 4. Feature Engineering
+Creating additional variables to support a more comprehensive analysis.
+### 5. Exploratory Data Analysis (EDA)
+Exploring sales performance across five dimensions of analysis, such as geographic, customer, product, operational, and promotion, to identify trends, patterns, and business insights.
+### 6. Dashboard Development
+Building an interactive dashboard to present key performance indicators and analysis results.
+### 7. Key Findings & Recommendation Reporting
+Identifying main insights from the analysis and developing data-driven business strategy recommendations to highlight potential opportunities and support better decision-making.
 
 
 ## 🧹 6. Data Cleaning
 The data cleaning process was performed to improve data quality, maintain consistency, and ensure the dataset was suitable for further analysis. The process involved the following steps:
-**1. Removing Duplicates**
+### 1. Removing Duplicates
 Duplicate records were identified and removed to prevent repeated entries from affecting the accuracy of the analysis.
 ### 2. Handling Missing Values
 Missing values were handled according to the characteristics of each variable:
