@@ -2,7 +2,7 @@
 
 
 ## 📌 A. Project Overview
-The project is an independent data analytics project exploring sales transaction history of a retail company from 2022 to 2025 using a publicly available dataset from Kaggle. The project focuses on evaluating overall business performance by exploring five key dimensions, such as **geographic performance, customer performance, product performance, operational performance, and promotion performance**. The findings are used to develop data-driven insights and actionable business strategy recommendations that may help identify business opportunities and support future decision-making.
+The project is an independent data analytics project exploring sales transaction history of a retail company from 2022 to 2025 using a publicly available dataset from Kaggle. The project focuses on evaluating overall business performance by exploring five key dimensions, such as geographic performance, customer performance, product performance, operational performance, and promotion performance. The findings are used to develop data-driven insights and actionable business strategy recommendations that may help identify business opportunities and support future decision-making.
 
 
 ## 🎯 B. Project Objectives
@@ -115,3 +115,16 @@ Several additional variables were created from the existing dataset to enable mo
 2. **Order Month and Order Day:** Used to enable time-based analysis and determine peak sales periods.
 3. **Discount Amount:** Used to calculte the monetary value of discounts provided to customers.
 4. **Profit Margin Percentage:** Used to evaluate profitability across transactions and product categories.
+
+
+## 🌍 H. Geographic Analysis
+### 1. Main Insights
+- The US generated the highest revenue and profit among the other five countries, reaching around 3.5 million and 699.6 thousand, respectively.
+- The high sales volume in the US was driven by its 4 high-performing stores, each generating over 700 thousand in sales. Meanwhile, other countries operate fewer stores than the US. The UK, Canada, and Germany have 2 active stores, while France and Australia operate 1 only.
+- However, the profit margin percentage of the US was lower than that of the UK and Canada. The UK and Canada achieved margins of 20.75% and 20.06%, respectively, while the US achieved roughly 19.98%.
+- Paris Central generated approximately 725.7 thousand in sales, comparable to several stores operating in the US. Its profit was even higher than that of Chicago Loop, reaching around 144.6 thousand.
+- The single store in France demonstrates better performance compared to each store operating in Canada and Germany, where sales and profits did not exceed 700 thousand and 140 thousand, respectively.
+### 2. Business Recommendations
+- **Total Cost Efficiency Evaluation:** The store branches operating in the US need to conduct a comprehensive review of their production, operational, and promotional strategies. This aims to identify cost components that can be minimised, ensuring that the high sales volume is accompanied by a higher profit margin, at least comparable to the percentage achieved by store branches in the UK and Canada, which is more than 20%.
+- **Measured Company Expansion:** The company should prioritise France for its next expansion plan, as this country shows high potential to open a new store branch beyond Paris. However, this expansion must be implemented by considering customer needs in the targeted city to ensure that sales are not centralised in Paris. The company needs an in-depth investigation into why 63% of the UK revenue and profit were generated solely from London.
+- **Underperforming Store Optimisation:** The store branches located in Australia and Germany require a more structured business research regarding customer satisfaction analysis and product development reassessment. The company needs to collect customer feedback to identify the root causes of low sales performance, allowing teams to implement adjustments in their production and operations to meet local customer expectations.﻿
