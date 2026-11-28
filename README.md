@@ -58,9 +58,9 @@ The project uses a retail sales dataset containing 18,045 transaction records an
 | 35 | `Inventory_Level` | Available inventory level associated with the product. |
 | 36 | `Order_Year` | Year in which the order was placed. |
 
-## 🛠️ Tools & Technologies
+## 🛠️ 4. Tools & Technologies
 - **Google Colaboratory:** Used as the working environment to write and execute Python code for data cleaning, feature engineering, and exploratory data analysis.
-- **Python:** Used to process and analyse the sales transaction dataset, including handling missing values, removing duplications, standardising data formats, detecting outliers, and creating new analytical variables.
+- **Python:** Used to process and analyse the sales transaction dataset, including removing duplicates, handling missing values, standardising data formats, detecting outliers, and creating new analytical variables.
 - **Python Libraries:**
   - **Pandas:** Used to manipulate, clean, transform, and analyse the dataset during data preparation and analysis..
   - **NumPy:** Used to support numerical calculations and selected feature engineering operations.
@@ -69,3 +69,15 @@ The project uses a retail sales dataset containing 18,045 transaction records an
 - **Microsoft Excel:** Used to inspect and review the sales transaction dataset in spreadsheet format.
 - **Looker Studio:** Used to develop an interactive dashboard presenting sales performance across geographic, customer, product, operational, and promotional dimensions.
 - **GitHub:** Used to document the project, organise its files, and publish the project as part of a data analytics portfolio.
+
+## 🔄 5. Project Workflow
+
+## Project Workflow
+The project was conducted through the following stages:
+1. **Data Collection** – Obtaining the retail sales transaction dataset from Kaggle as the primary data source for the analysis.
+2. **Data Review** – Reviewing the dataset structure, identifying the available variables, and understanding the characteristics of the data.
+3. **Data Cleaning** – Preparing the dataset by removing duplicates, handling missing values, standardising data formats, and detecting outliers.
+4. **Feature Engineering** – Creating additional variables to support a more comprehensive analysis.
+5. **Exploratory Data Analysis (EDA)** – Exploring sales performance across five dimensions of analysis: geographic, customer, product, operational, and promotion performance to identify trends, patterns, and business insights.
+6. **Dashboard Development** – Building an interactive dashboard to present key performance indicators and analysis results.
+7. **Key Findings & Recommendation Reporting** – Identifying key business insights from the analysis and developing data-driven business strategy recommendations to highlight potential opportunities and support better decision-making.
