@@ -128,6 +128,47 @@ The dashboard uses five key performance indicators to provide an overview of ove
 | **Total Quantity Sold** | The total number of product units sold across all transactions. | 38,289 |
 
 
+### Data Visualizations
+The dashboard consists of six pages, each focusing on a specific aspect of business performance.
+#### 1. Executive Summary
+- Sales and Profit by Country – Horizontal Bar Chart
+- Number of Transactions by Segment – Line Chart
+- Sales Distribution by Product Category** – Doughnut Chart
+- Number of Promotion Codes Used – Table
+- Sales Performance by Month and Country – Clustered Column Chart
+#### 2. Geographic Performance
+- Sales and Profit by Country – Horizontal Bar Chart
+- Yearly Sales Trend by Country – Line Chart
+- Yearly Profit Trend by Country – Line Chart
+- Sales and Profit by City – Table
+- Sales and Profit by Store – Horizontal Bar Chart
+#### 3. Customer Performance
+- Number of Transactions by Segment – Line Chart
+- Number of Transactions by Age Group – Line Chart
+- Sales Distribution by Gender – Doughnut Chart
+- Sales by Segment and Channel – Clustered Column Chart
+- Sales by Age Group and Channel – Clustered Column Chart
+#### 4. Product Performance
+- Sales Distribution by Product Category – Doughnut Chart
+- Sales by Country and Product Subcategory – Horizontal Bar Chart
+- Sales by Segment and Product Subcategory – Horizontal Bar Chart
+- Quantity Sold by Product Subcategory – Horizontal Bar Chart
+- Comparison of Sales, Cost, and Profit by Product Subcategory – Table
+#### 5. Operational Performance
+- Sales Performance by Month and Country – Clustered Column Chart
+- Sales Performance by Day and Country – Clustered Column Chart
+- Percentage of Shipping Method Preference – Doughnut Chart
+- Sales Amount by Payment Method – Horizontal Bar Chart
+- Percentage of Return Reason – Doughnut Chart
+#### 6. Promotion Performance
+- Number of Promotion Codes Used – Table
+- Performance of Promotion Code by Profit – Horizontal Bar Chart
+- Average of Quantity Purchased with Promo – Horizontal Bar Chart
+- Sales by Promotion Code and Channel – Horizontal Bar Chart
+- Promotion Code Usage by Gender – Doughnut Chart
+- Promotion Code Usage by Age Group – Doughnut Chart
+
+
 ## 🌍 K. Geographic Analysis
 ### 1. Main Insights
 - The US generated the highest revenue and profit among the other five countries, reaching around 3.5 million and 699.6 thousand, respectively.
