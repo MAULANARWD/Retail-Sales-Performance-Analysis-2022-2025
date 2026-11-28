@@ -231,3 +231,13 @@ The dashboard consists of six pages, each focusing on a specific aspect of busin
 - **Successful Promotion Intensification:** The implementation of high-performing promotion codes, such as HOLIDAY20 and BLACKFRIDAY25, should be intensified during peak seasons to maximise their profitability. The company may need to consider incorporating these promotion codes into its regular promotional strategy while upgrading its system to allow them to be applied across various products by a wider range of customer segments.
 - **Purchase Volume Stimulation:** Several promotion codes can be leveraged to encourage customers to increase the quantity of products purchased in a single transaction. This can be achieved by offering additional discounts when customers purchase a certain number of products or reach a specified minimum purchase value. However, the company should carefully determine the discount percentage to avoid negatively affecting profit margins.
 - **High-Traffic Channel Utilisation:** Promotional campaigns can be maximised through online platforms, retail store, and B2B portal by delivering personalised promotions through social media platforms, providing exclusive in-store offers, and establishing special schemes for business organisations. However, beyond leveraging these channels, the company may also need to explore opportunities to improve the promotional performance through phone order.
+
+
+## 📁 O. Project Repository Structure
+| File | Description |
+|---|---|
+| `Cleaned Data.csv` | Cleaned sales transaction dataset used for the analysis. |
+| `Code.ipynb` | Complete Python code used for data cleaning, feature engineering, and exploratory data analysis (EDA). |
+| `Final Dashboard.pdf` | Final dashboard presenting sales performance across five dimensions of analysis. |
+| `Workflow and Deep-Dive Analysis.pdf` | Report explaining project workflow, main insights, and business recommendations. |
+| `README.md` | Project documentation covering the project overview, objectives, dataset information, tools, methodology, and key findings. |
