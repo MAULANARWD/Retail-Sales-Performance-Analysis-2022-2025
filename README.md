@@ -81,7 +81,7 @@ Used to document the project, organise its files, and publish the project as par
 
 
 ## 🔄 E. Project Workflow
-#### 1. Data Collection
+### 1. Data Collection
 Obtaining the retail sales transaction dataset from Kaggle as the primary data source for the analysis.
 ### 2. Data Review
 Reviewing the structure, variables, and characteristics of the data.
@@ -115,8 +115,8 @@ Invalid and extreme values were examined to improve data reliability:
 
 
 ## ⚙️ G. Feature Engineering
-Feature engineering was performed to create additional variables from the existing dataset, enabling more detailed analysis and supporting the identification of business patterns. The following features were created:
-1. **Customer Age Group:** Categorised customers into age groups to simplify demographic analysis and support the evaluation of customer segments based on age.
-2. **Order Month and Order Day:** Extracted the month and day from `Order_Date` to enable time-based analysis, identify seasonal patterns, and determine peak sales periods.
-3. **Discount Amount:** Calculated the monetary value of discounts provided to customers using the formula Discount_Amount = (Quantity * Unit_Price) - Sales_Amount
-4. **Profit Margin Percentage:** Calculated the profit margin as a percentage of sales to evaluate profitability across transactions and product categories using the formula Profit_Margin = (Profit / Sales_Amount) * 100
+Several additional variables were created from the existing dataset to enable more detailed analysis. Those variables are as follows:
+1. **Customer Age Group:** Used to simplify the evaluation of sales performance based on customer age.
+2. **Order Month and Order Day:** Used to enable time-based analysis and determine peak sales periods.
+3. **Discount Amount:** Used to calculte the monetary value of discounts provided to customers.
+4. **Profit Margin Percentage:** Used to evaluate profitability across transactions and product categories.
