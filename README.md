@@ -62,10 +62,10 @@ The project uses a retail sales dataset containing 18,045 transaction records an
 1. **Google Colaboratory:** Used as the working environment to write and execute Python code for data cleaning, feature engineering, and exploratory data analysis.
 2. **Python:** Used to process and analyse the sales transaction dataset, including removing duplicates, handling missing values, standardising data formats, detecting outliers, and creating new analytical variables.
 3. **Python Libraries:**
-  - **Pandas:** Used to manipulate, clean, transform, and analyse the dataset during data preparation and analysis..
-  - **NumPy:** Used to support numerical calculations and selected feature engineering operations.
-  - **Seaborn:** Used to visualise numerical data distributions and identify outliers through boxplots.
-  - **Matplotlib:** Used to visualise sales and profit performance, trends, and patterns across different business dimensions.
+   - **Pandas:** Used to manipulate, clean, transform, and analyse the dataset during data preparation and analysis.
+   - **NumPy:** Used to support numerical calculations and selected feature engineering operations.
+   - **Seaborn:** Used to visualise numerical data distributions and identify outliers through boxplots.
+   - **Matplotlib:** Used to visualise sales and profit performance, trends, and patterns across different business dimensions.
 4. **Microsoft Excel:** Used to inspect and review the sales transaction dataset in spreadsheet format.
 5. **Looker Studio:** Used to develop an interactive dashboard presenting sales performance across geographic, customer, product, operational, and promotional dimensions.
 6. **GitHub:** Used to document the project, organise its files, and publish the project as part of a data analytics portfolio.
