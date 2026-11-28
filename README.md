@@ -59,25 +59,51 @@ The project uses a retail sales dataset containing 18,045 transaction records an
 | 36 | `Order_Year` | Year in which the order was placed. |
 
 ## 🛠️ 4. Tools & Technologies
-- **Google Colaboratory:** Used as the working environment to write and execute Python code for data cleaning, feature engineering, and exploratory data analysis.
-- **Python:** Used to process and analyse the sales transaction dataset, including removing duplicates, handling missing values, standardising data formats, detecting outliers, and creating new analytical variables.
-- **Python Libraries:**
+**1. Google Colaboratory:** Used as the working environment to write and execute Python code for data cleaning, feature engineering, and exploratory data analysis.
+**2. Python:** Used to process and analyse the sales transaction dataset, including removing duplicates, handling missing values, standardising data formats, detecting outliers, and creating new analytical variables.
+**3. Python Libraries:**
   - **Pandas:** Used to manipulate, clean, transform, and analyse the dataset during data preparation and analysis..
   - **NumPy:** Used to support numerical calculations and selected feature engineering operations.
   - **Seaborn:** Used to visualise numerical data distributions and identify outliers through boxplots.
   - **Matplotlib:** Used to visualise sales and profit performance, trends, and patterns across different business dimensions.
-- **Microsoft Excel:** Used to inspect and review the sales transaction dataset in spreadsheet format.
-- **Looker Studio:** Used to develop an interactive dashboard presenting sales performance across geographic, customer, product, operational, and promotional dimensions.
-- **GitHub:** Used to document the project, organise its files, and publish the project as part of a data analytics portfolio.
+**4. Microsoft Excel:** Used to inspect and review the sales transaction dataset in spreadsheet format.
+**5. Looker Studio:** Used to develop an interactive dashboard presenting sales performance across geographic, customer, product, operational, and promotional dimensions.
+**6. GitHub:** Used to document the project, organise its files, and publish the project as part of a data analytics portfolio.
 
 ## 🔄 5. Project Workflow
-
-## Project Workflow
 The project was conducted through the following stages:
-1. **Data Collection** – Obtaining the retail sales transaction dataset from Kaggle as the primary data source for the analysis.
-2. **Data Review** – Reviewing the structure, variables, and characteristics of the data.
-3. **Data Cleaning** – Preparing the dataset by removing duplicates, handling missing values, standardising data formats, and detecting outliers.
-4. **Feature Engineering** – Creating additional variables to support a more comprehensive analysis.
-5. **Exploratory Data Analysis (EDA)** – Exploring sales performance across five dimensions of analysis, such as geographic, customer, product, operational, and promotion, to identify trends, patterns, and business insights.
-6. **Dashboard Development** – Building an interactive dashboard to present key performance indicators and analysis results.
-7. **Key Findings & Recommendation Reporting** – Identifying main insights from the analysis and developing data-driven business strategy recommendations to highlight potential opportunities and support better decision-making.
+**1. Data Collection** – Obtaining the retail sales transaction dataset from Kaggle as the primary data source for the analysis.
+**2. Data Review** – Reviewing the structure, variables, and characteristics of the data.
+**3. Data Cleaning** – Preparing the dataset by removing duplicates, handling missing values, standardising data formats, and detecting outliers.
+**4. Feature Engineering** – Creating additional variables to support a more comprehensive analysis.
+**5. Exploratory Data Analysis (EDA)** – Exploring sales performance across five dimensions of analysis, such as geographic, customer, product, operational, and promotion, to identify trends, patterns, and business insights.
+**6. Dashboard Development** – Building an interactive dashboard to present key performance indicators and analysis results.
+**7. Key Findings & Recommendation Reporting** – Identifying main insights from the analysis and developing data-driven business strategy recommendations to highlight potential opportunities and support better decision-making.
+
+
+## 🧹 6. Data Cleaning
+The data cleaning process was performed to improve data quality, maintain consistency, and ensure the dataset was suitable for further analysis. The process involved the following steps:
+
+### 1. Removing Duplicate Records
+
+Duplicate records were identified and removed to prevent repeated entries from affecting the accuracy of the analysis.
+
+### 2. Handling Missing Values
+
+Missing values were handled according to the characteristics and business context of each variable:
+
+- **Median Imputation:** Missing values in `Customer_Age`, `Delivery_Days`, and `Inventory_Level` were replaced with their respective median values to minimise the influence of extreme values.
+- **Unknown Categorisation:** Missing values in `Customer_Name`, `Customer_Gender`, and `Payment_Method` were replaced with "Unknown" to maintain transparency in the analysis.
+- **Reference-Based Imputation:** Missing values in `Product_Name` were filled using the corresponding `Product_ID` as a reference from other completed records.
+- **Retaining Blank Values:** Missing values in `Return_Reason`, `Customer_Rating`, and `Promotion_Code` were left blank because they could represent valid business conditions.
+
+### 3. Standardising Data Formats
+
+Formatting inconsistencies were corrected by standardising capitalisation, removing unnecessary whitespace, and fixing encoding errors. This ensured that identical values were not treated as separate categories during analysis.
+
+### 4. Detecting and Handling Outliers
+
+Invalid and extreme values were examined to improve data reliability:
+
+- **Quantity:** Three negative values were identified as logically invalid. These values were corrected through back-calculation using the `Sales_Amount`, `Unit_Price`, and `Discount_Percentage` variables.
+- **Customer Age:** Three extreme age values were identified. The age range was restricted to 15–75 years to exclude values considered unrealistic for individuals making transactions independently.
