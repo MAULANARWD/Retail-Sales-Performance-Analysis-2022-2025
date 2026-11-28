@@ -168,7 +168,7 @@ Several additional variables were created from the existing dataset to enable mo
 - **Joint Promotional Partnership:** Collaboration between the company and credit card providers should be considered to maintain high sales value through credit card transactions. This partnership involves offering exclusive discounts, cashback, or other benefits to credit card users, aiming to encourage customers to continue using credit cards when purchasing the products and expand customer reach through appealing payment incentives. 
 
 
-## 🎟️ L. Promotion Product Analysis
+## 🎟️ L. Promotion Analysis
 ### 1. Main Insights
 - HOLIDAY20 and BLACKFRIDAY25 were the most popular promotion codes among customers, with 1,396 and 1,229 uses, respectively.
 - The total profit generated from transactions using HOLIDAY20 reached 125.5 thousand, becoming the highest compared to transactions using other promotion codes. Meanwhile, the lowest profit was generated from transactions using CORP5 at approximately 35% of the highest one.
