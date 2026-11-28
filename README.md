@@ -75,9 +75,9 @@ The project uses a retail sales dataset containing 18,045 transaction records an
 ## Project Workflow
 The project was conducted through the following stages:
 1. **Data Collection** – Obtaining the retail sales transaction dataset from Kaggle as the primary data source for the analysis.
-2. **Data Review** – Reviewing the dataset structure, identifying the available variables, and understanding the characteristics of the data.
+2. **Data Review** – Reviewing the structure, variables, and characteristics of the data.
 3. **Data Cleaning** – Preparing the dataset by removing duplicates, handling missing values, standardising data formats, and detecting outliers.
 4. **Feature Engineering** – Creating additional variables to support a more comprehensive analysis.
-5. **Exploratory Data Analysis (EDA)** – Exploring sales performance across five dimensions of analysis: geographic, customer, product, operational, and promotion performance to identify trends, patterns, and business insights.
+5. **Exploratory Data Analysis (EDA)** – Exploring sales performance across five dimensions of analysis, such as geographic, customer, product, operational, and promotion, to identify trends, patterns, and business insights.
 6. **Dashboard Development** – Building an interactive dashboard to present key performance indicators and analysis results.
-7. **Key Findings & Recommendation Reporting** – Identifying key business insights from the analysis and developing data-driven business strategy recommendations to highlight potential opportunities and support better decision-making.
+7. **Key Findings & Recommendation Reporting** – Identifying main insights from the analysis and developing data-driven business strategy recommendations to highlight potential opportunities and support better decision-making.
