@@ -117,7 +117,18 @@ Several additional variables were created from the existing dataset to enable mo
 4. **Profit Margin Percentage:** Used to evaluate profitability across transactions and product categories.
 
 
-## 🌍 H. Geographic Analysis
+## 📊 H. Key Performance Indicators
+The dashboard uses five key performance indicators to provide an overview of overall business performance.
+| KPI | Description | Value |
+|---|---|---:|
+| **Total Sales** | The total revenue generated from all sales transactions. | 8,234,090.6 |
+| **Total Profit** | The total profit generated from sales after deducting costs. | 1,645,439.4 |
+| **Profit Margin** | The percentage of sales revenue remaining as profit. | 19.98% |
+| **Total Orders** | The total number of orders recorded during the analysis period. | 14,541 |
+| **Total Quantity Sold** | The total number of product units sold across all transactions. | 38,289 |
+
+
+## 🌍 K. Geographic Analysis
 ### 1. Main Insights
 - The US generated the highest revenue and profit among the other five countries, reaching around 3.5 million and 699.6 thousand, respectively.
 - The high sales volume in the US was driven by its 4 high-performing stores, each generating over 700 thousand in sales. Meanwhile, other countries operate fewer stores than the US. The UK, Canada, and Germany have 2 active stores, while France and Australia operate 1 only.
@@ -130,7 +141,7 @@ Several additional variables were created from the existing dataset to enable mo
 - **Underperforming Store Optimisation:** The store branches located in Australia and Germany require a more structured business research regarding customer satisfaction analysis and product development reassessment. The company needs to collect customer feedback to identify the root causes of low sales performance, allowing teams to implement adjustments in their production and operations to meet local customer expectations.﻿
 
 
-## 👥 I. Customer Analysis
+## 👥 L. Customer Analysis
 ### 1. Main Insights
 - The transaction volume from the consumer segment increased significantly from 1,286 in 2022 to 2,409 in 2025, while the other segments remained below 1,000 transactions throughout the four years.
 - 1,450 transactions from new customers were achieved in 2022, becoming the highest among all segments. However, there were zero transactions recorded from this segment in the following three years.
@@ -143,7 +154,7 @@ Several additional variables were created from the existing dataset to enable mo
 - **Digital Experience Enhancement:** The customer experience when using online channels should be improved to maintain high sales volumes. This goal can be achieved by simplifying the online purchasing journey and developing a consistent UI/UX across devices. In addition, providing customer support features that assist customers in resolving potential technical issues during the transaction process is also necessary to foster long-term customer loyalty.
 
 
-## 📦 J. Product Analysis
+## 📦 M. Product Analysis
 ### 1. Main Insights
 - The electronics category contributed to nearly two-thirds of total sales, while the furniture category accounted for approximately one-quarter.
 - Laptops, office furniture, and tablets were the three product subcategories with the highest total sales across all countries and customer segments, showing their roles as the primary revenue sources.
@@ -156,7 +167,7 @@ Several additional variables were created from the existing dataset to enable mo
 - **Cost and Profitability Evaluation:** A comprehensive evaluation of cost structures is necessary for several products, particularly laptops, office furniture, tablets, and printers. This evaluation aims to identify cost components that can be reduced without compromising product quality. If this is not feasible, adjustments to the pricing strategy should be considered as an alternative, while maintaining a competitive advantage to avoid losing customers.﻿
 
 
-## 📅 K. Operational Analysis
+## 📅 N. Operational Analysis
 ### 1. Main Insights
 - The last quarter of the year was the busiest period across all six countries. While most countries reached their highest sales volumes in November and December, the US and the UK even entered their peak sales periods one month earlier, beginning in October.
 - Several countries also experienced additional peak sales periods outside the last quarter. For instance, France reached higher sales volumes in March, May, and September, while Canada showed increased sales activity in August. In addition, Australia also experienced relatively high sales volumes in March and May, similar to France.
@@ -168,7 +179,7 @@ Several additional variables were created from the existing dataset to enable mo
 - **Joint Promotional Partnership:** Collaboration between the company and credit card providers should be considered to maintain high sales value through credit card transactions. This partnership involves offering exclusive discounts, cashback, or other benefits to credit card users, aiming to encourage customers to continue using credit cards when purchasing the products and expand customer reach through appealing payment incentives. 
 
 
-## 🎟️ L. Promotion Analysis
+## 🎟️ O. Promotion Analysis
 ### 1. Main Insights
 - HOLIDAY20 and BLACKFRIDAY25 were the most popular promotion codes among customers, with 1,396 and 1,229 uses, respectively.
 - The total profit generated from transactions using HOLIDAY20 reached 125.5 thousand, becoming the highest compared to transactions using other promotion codes. Meanwhile, the lowest profit was generated from transactions using CORP5 at approximately 35% of the highest one.
