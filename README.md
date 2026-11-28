@@ -1,7 +1,9 @@
 # Retail Sales Performance Analysis 2022–2025
 
+
 ## 📌 A. Project Overview
 The project is an independent data analytics project exploring sales transaction history of a retail company from 2022 to 2025 using a publicly available dataset from Kaggle. The project focuses on evaluating overall business performance by exploring five key dimensions, such as **geographic performance, customer performance, product performance, operational performance, and promotion performance**. The findings are used to develop data-driven insights and actionable business strategy recommendations that may help identify business opportunities and support future decision-making.
+
 
 ## 🎯 B. Project Objectives
 This analysis aims to address the following objectives:
@@ -16,6 +18,7 @@ This analysis aims to address the following objectives:
 9. Understanding customer preferences for shipping and payment methods.
 10. Identifying promotion codes that are most frequently used by customers.
 11. Assessing how effectively promotion codes drive purchase quantities and generate profit.
+
 
 ## 📂 C. Dataset Information
 The project uses a retail sales dataset containing 18,045 transaction records and 36 columns with variables as follow:
@@ -58,6 +61,7 @@ The project uses a retail sales dataset containing 18,045 transaction records an
 | 35 | `Inventory_Level` | Available inventory level associated with the product. |
 | 36 | `Order_Year` | Year in which the order was placed. |
 
+
 ## 🛠️ D. Tools & Technologies
 ### 1. Google Colaboratory
 Used as the working environment to write and execute Python code for data cleaning, feature engineering, and exploratory data analysis.
@@ -74,6 +78,7 @@ Used to inspect and review the sales transaction dataset in spreadsheet format.
 Used to develop an interactive dashboard presenting sales performance across geographic, customer, product, operational, and promotional dimensions.
 ### 6. GitHub
 Used to document the project, organise its files, and publish the project as part of a data analytics portfolio.
+
 
 ## 🔄 E. Project Workflow
 The project was conducted through the following stages:
@@ -92,9 +97,10 @@ Building an interactive dashboard to present key performance indicators and anal
 ### 7. Key Findings & Recommendation Reporting
 Identifying main insights from the analysis and developing data-driven business strategy recommendations to highlight potential opportunities and support better decision-making.
 
+
 ## 🧹 F. Data Cleaning
 The data cleaning process was performed to improve data quality, maintain consistency, and ensure the dataset was suitable for further analysis. The process involved the following steps:
-### 1. Removing Duplicates
+1. **Removing Duplicates**
 Duplicate records were identified and removed to prevent repeated entries from affecting the accuracy of the analysis.
 ### 2. Handling Missing Values
 Missing values were handled according to the characteristics of each variable:
@@ -109,7 +115,8 @@ Invalid and extreme values were examined to improve data reliability:
 - **Quantity:** Three negative values were identified as logically invalid. These values were corrected through back-calculation using the `Sales_Amount`, `Unit_Price`, and `Discount_Percentage` variables.
 - **Customer Age:** Three extreme age values were identified. The age range was restricted to 15–75 years to exclude values considered unrealistic for individuals making transactions independently.
 
-## ⚙️ 8. Feature Engineering
+
+## ⚙️ G. Feature Engineering
 Feature engineering was performed to create additional variables from the existing dataset, enabling more detailed analysis and supporting the identification of business patterns. The following features were created:
 1. **Customer Age Group:** Categorised customers into age groups to simplify demographic analysis and support the evaluation of customer segments based on age.
 2. **Order Month and Order Day:** Extracted the month and day from `Order_Date` to enable time-based analysis, identify seasonal patterns, and determine peak sales periods.
