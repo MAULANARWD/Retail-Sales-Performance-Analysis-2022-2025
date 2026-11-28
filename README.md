@@ -83,7 +83,7 @@ The project was conducted through the following stages:
 
 ## 🧹 6. Data Cleaning
 The data cleaning process was performed to improve data quality, maintain consistency, and ensure the dataset was suitable for further analysis. The process involved the following steps:
-### 1. Removing Duplicates
+**1. Removing Duplicates**
 Duplicate records were identified and removed to prevent repeated entries from affecting the accuracy of the analysis.
 ### 2. Handling Missing Values
 Missing values were handled according to the characteristics of each variable:
